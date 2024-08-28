@@ -1,0 +1,17 @@
+@font-face {
+    font-family: yekan;
+    src: url("../fonts/iranyekanwebbold.ttf") format("truetype");
+  }
+
+
+body{
+  font-family: yekan;
+}
+
+/* utility */
+.lh-1{
+  line-height: 30px;
+}
+.lh-2{
+  line-height: 35px;
+}
