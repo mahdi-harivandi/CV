@@ -47,3 +47,7 @@ header{
   .change .line_3{
     transform: rotate(45deg) translate(-5px , -6px);
   }
+  /* footer  */
+  footer{
+    background-color: #eee;
+  }
