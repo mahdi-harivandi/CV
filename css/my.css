@@ -15,8 +15,8 @@ body{
 .lh-2{
   line-height: 35px;
 }
-/* navbar */
-.nav_menu{
+/* header */
+header{
     background: linear-gradient(rgba(0,0,0,.5) , rgba(0,0,0,.8));
     padding: 15px;
   }
