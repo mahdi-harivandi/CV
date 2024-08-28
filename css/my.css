@@ -15,3 +15,31 @@ body{
 .lh-2{
   line-height: 35px;
 }
+/* navbar */
+.nav_menu{
+    background: linear-gradient(rgba(0,0,0,.5) , rgba(0,0,0,.8));
+    padding: 15px;
+  }
+  .menu_item{
+    font-size: 17px;
+    color: #eee;
+    transition: color .5s;
+  }
+  .menu_item:hover{
+    columns: #70aed2;
+  }
+  .line_1 , .line_2 , .line_3{
+    width: 23px;
+    height: 3px;
+    margin: 5px;
+    transition: all .4s;
+  }
+  .change .line_1{
+    transform: rotate(-45deg) translate(-5px , 6px);
+  }
+  .change .line_2{
+    opacity: 0;
+  }
+  .change .line_3{
+    transform: rotate(45deg) translate(-5px , -6px);
+  }
